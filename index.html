@@ -81,29 +81,34 @@ function norm(s){let x=s.trim().replace(/[’‘]/g,"'").replace(/[。？！]/g,
 function check(){if(state.checked){next();return}const q=state.questions[state.index], val=$('#answerInput').value;if(!val.trim()){shake($('#answerInput'));return}const ok=norm(val)===norm(q.answer);state.checked=true;$('#answerInput').disabled=true;$('#answerInput').classList.add(ok?'ok':'bad');if(ok){state.score++;removeMistake(q);$('#liveScore').textContent=state.score;$('#feedback').innerHTML='<strong style="color:#168260">答对啦，真棒！</strong><p>点击按钮继续下一题。</p>';confetti()}else{state.wrong.push(q);addMistake(q);$('#feedback').innerHTML='<strong style="color:#c8403b">答案不正确</strong><p>正确答案：<b>'+escapeHtml(q.answer)+'</b></p>'}$('#checkBtn').textContent=state.index===state.questions.length-1?'查看成绩':'下一题'}
 function next(){state.index++;renderQuestion()} function escapeHtml(s){return s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
 function hint(){const q=state.questions[state.index];if(state.checked)return;const parts=q.answer.split(' '),hint=parts.map(w=>w[0]+(w.length>2?'＿'.repeat(Math.min(w.length-1,6)):'＿')).join(' ');$('#feedback').innerHTML=`<strong>小提示</strong><p>${escapeHtml(hint)} · 一共 ${q.answer.replace(/\s/g,'').length} 个字母</p>`}
-let voiceList=[];
+let voiceList=[],activeSpeech=null,speechUnlocked=false;
 function loadVoices(){if(!('speechSynthesis'in window))return;voiceList=speechSynthesis.getVoices()||[]}
+function playSpeech(text,lang,rate,pitch,onstart,onerror){
+  if(!('speechSynthesis'in window)||typeof SpeechSynthesisUtterance==='undefined')return false;
+  const synth=window.speechSynthesis;
+  if(synth.paused)synth.resume();
+  if(synth.speaking)synth.cancel();
+  const u=new SpeechSynthesisUtterance(text);
+  const voices=voiceList.length?voiceList:synth.getVoices();
+  const matches=voices.filter(v=>v.lang&&v.lang.toLowerCase().startsWith(lang.toLowerCase().split('-')[0]));
+  u.voice=matches.find(v=>v.lang.toLowerCase()===lang.toLowerCase())||matches[0]||null;
+  u.lang=u.voice?.lang||lang;u.rate=rate;u.pitch=pitch;
+  u.onstart=()=>{speechUnlocked=true;if(onstart)onstart()};
+  u.onend=()=>{activeSpeech=null};
+  u.onerror=e=>{activeSpeech=null;if(e.error!=='canceled'&&e.error!=='interrupted'&&onerror)onerror(e)};
+  activeSpeech=u;synth.speak(u);return true;
+}
 function speakCurrent(){
   if(!state.sound){$('#feedback').innerHTML='<strong>声音已关闭</strong><p>点击右上角的 🔇 可以重新打开声音。</p>';return}
-  if(!('speechSynthesis'in window)||typeof SpeechSynthesisUtterance==='undefined'){$('#feedback').innerHTML='<strong>当前浏览器不支持朗读</strong><p>请用最新版 Edge 或 Chrome 打开此文件。</p>';return}
+  if(!('speechSynthesis'in window)||typeof SpeechSynthesisUtterance==='undefined'){$('#feedback').innerHTML='<strong>当前浏览器不支持朗读</strong><p>请使用最新版 Safari、Edge 或 Chrome。</p>';return}
   const q=state.questions[state.index];
-  speechSynthesis.cancel();
-  const u=new SpeechSynthesisUtterance(q.answer);
-  const english=voiceList.filter(v=>/^en([-_]|$)/i.test(v.lang));
-  u.voice=english.find(v=>/^en-GB/i.test(v.lang))||english.find(v=>/^en-US/i.test(v.lang))||english[0]||null;
-  u.lang=u.voice?.lang||'en-US';u.rate=.72;u.pitch=1.08;
-  u.onstart=()=>{$('#feedback').innerHTML='<strong style="color:#2b75c9">正在朗读……</strong><p>请听清楚，再开始默写。</p>'};
-  u.onerror=()=>{$('#feedback').innerHTML='<strong>没有播放出来</strong><p>这台电脑可能没有安装英文语音包，请在 Edge/Chrome 中打开并检查系统声音。</p>'};
-  speechSynthesis.speak(u);
+  playSpeech(q.answer,'en-US',.72,1.08,()=>{$('#feedback').innerHTML='<strong style="color:#2b75c9">正在朗读……</strong><p>请听清楚，再开始默写。</p>'},()=>{$('#feedback').innerHTML='<strong>没有播放出来</strong><p>请确认 iPad 未静音，并再次点击“听一听”。</p>'});
 }
 function speakButton(button){
   if(!state.sound||!('speechSynthesis'in window)||typeof SpeechSynthesisUtterance==='undefined')return;
   const title=button.getAttribute('title')||button.querySelector('h3')?.textContent||button.closest('.setting')?.querySelector('b')?.textContent||button.textContent.replace(/[🔊🔇⚙←📋💡⭐✨🎉💛]/g,'').replace(/\s+/g,' ').trim();
   if(!title)return;
-  speechSynthesis.cancel();
-  const u=new SpeechSynthesisUtterance(title);
-  u.lang='zh-CN';u.rate=.9;u.pitch=1;
-  speechSynthesis.speak(u);
+  playSpeech(title,'zh-CN',.9,1);
 }
 function copyReadingText(){
   const q=state.questions[state.index];
@@ -117,8 +122,9 @@ function confetti(){const box=$('#checkBtn').getBoundingClientRect(),bits=['⭐'
 function shake(e){e.animate([{transform:'translateX(0)'},{transform:'translateX(-7px)'},{transform:'translateX(7px)'},{transform:'translateX(0)'}],{duration:260})}
 $('#checkBtn').onclick=check;$('#answerInput').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();check()}};$('#clearBtn').onclick=()=>{$('#answerInput').value='';$('#answerInput').focus()};$('#hintBtn').onclick=hint;$('#speakBtn').onclick=speakCurrent;$('#copyBtn').onclick=copyReadingText;$('#backBtn').onclick=()=>{speechSynthesis?.cancel();renderUnits();show('home')};$('#homeBtn').onclick=()=>{renderUnits();show('home')};$('#mistakesBtn').onclick=practiceMistakes;$('#retryBtn').onclick=()=>{buildQuestions();show('practice')};
 $$('.mode-btn').forEach(b=>b.onclick=()=>{state.mode=b.dataset.mode;$$('.mode-btn').forEach(x=>x.classList.toggle('active',x===b));buildQuestions()});
-$('#soundBtn').onclick=()=>{state.sound=!state.sound;$('#soundBtn').textContent=state.sound?'🔊':'🔇'};$('#settingsBtn').onclick=()=>$('#settingsModal').classList.add('open');$('#closeSettings').onclick=()=>$('#settingsModal').classList.remove('open');$('#settingsModal').onclick=e=>{if(e.target.id==='settingsModal')e.currentTarget.classList.remove('open')};$$('.switch').forEach(b=>b.onclick=()=>{const k=b.dataset.setting;state.settings[k]=!state.settings[k];b.classList.toggle('on',state.settings[k])});
+$('#soundBtn').onclick=()=>{state.sound=!state.sound;$('#soundBtn').textContent=state.sound?'🔊':'🔇';if(state.sound)playSpeech('声音已打开','zh-CN',.9,1);else speechSynthesis?.cancel()};$('#settingsBtn').onclick=()=>$('#settingsModal').classList.add('open');$('#closeSettings').onclick=()=>$('#settingsModal').classList.remove('open');$('#settingsModal').onclick=e=>{if(e.target.id==='settingsModal')e.currentTarget.classList.remove('open')};$$('.switch').forEach(b=>b.onclick=()=>{const k=b.dataset.setting;state.settings[k]=!state.settings[k];b.classList.toggle('on',state.settings[k])});
 document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||b.id==='speakBtn')return;speakButton(b)});
+document.addEventListener('touchend',()=>{if(!speechUnlocked&&state.sound&&'speechSynthesis'in window)speechSynthesis.resume()},{once:true,passive:true});
 renderUnits();
 if('speechSynthesis' in window){loadVoices();speechSynthesis.onvoiceschanged=loadVoices}
 </script>
