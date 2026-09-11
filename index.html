@@ -81,22 +81,29 @@ function norm(s){let x=s.trim().replace(/[’‘]/g,"'").replace(/[。？！]/g,
 function check(){if(state.checked){next();return}const q=state.questions[state.index], val=$('#answerInput').value;if(!val.trim()){shake($('#answerInput'));return}const ok=norm(val)===norm(q.answer);state.checked=true;$('#answerInput').disabled=true;$('#answerInput').classList.add(ok?'ok':'bad');if(ok){state.score++;removeMistake(q);$('#liveScore').textContent=state.score;playSpeech('答对啦，你真棒！','zh-CN',.9,1);confetti();next();return}else{state.wrong.push(q);addMistake(q);$('#feedback').innerHTML='<strong style="color:#c8403b">答案不正确</strong><p>正确答案：<b>'+escapeHtml(q.answer)+'</b></p>';playSpeech('加油哦','zh-CN',.9,1)}$('#checkBtn').textContent=state.index===state.questions.length-1?'查看成绩':'下一题'}
 function next(){state.index++;renderQuestion()} function escapeHtml(s){return s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
 function hint(){const q=state.questions[state.index];if(state.checked)return;const parts=q.answer.split(' '),hint=parts.map(w=>w[0]+(w.length>2?'＿'.repeat(Math.min(w.length-1,6)):'＿')).join(' ');$('#feedback').innerHTML=`<strong>小提示</strong><p>${escapeHtml(hint)} · 一共 ${q.answer.replace(/\s/g,'').length} 个字母</p>`}
-let voiceList=[],activeSpeech=null,speechUnlocked=false;
+let voiceList=[],activeSpeech=null,speechUnlocked=false,speechTimer=null,speechRequest=0;
 function loadVoices(){if(!('speechSynthesis'in window))return;voiceList=speechSynthesis.getVoices()||[]}
+function unlockSpeech(){
+  if(speechUnlocked||!state.sound||!('speechSynthesis'in window)||typeof SpeechSynthesisUtterance==='undefined')return;
+  const synth=window.speechSynthesis,u=new SpeechSynthesisUtterance(' ');u.volume=0;u.rate=1;
+  u.onend=u.onerror=()=>{speechUnlocked=true;activeSpeech=null};
+  synth.resume();activeSpeech=u;synth.speak(u);
+}
 function playSpeech(text,lang,rate,pitch,onstart,onerror){
   if(!('speechSynthesis'in window)||typeof SpeechSynthesisUtterance==='undefined')return false;
-  const synth=window.speechSynthesis;
-  if(synth.paused)synth.resume();
-  if(synth.speaking)synth.cancel();
-  const u=new SpeechSynthesisUtterance(text);
-  const voices=voiceList.length?voiceList:synth.getVoices();
-  const matches=voices.filter(v=>v.lang&&v.lang.toLowerCase().startsWith(lang.toLowerCase().split('-')[0]));
-  u.voice=matches.find(v=>v.lang.toLowerCase()===lang.toLowerCase())||matches[0]||null;
-  u.lang=u.voice?.lang||lang;u.rate=rate;u.pitch=pitch;
-  u.onstart=()=>{speechUnlocked=true;if(onstart)onstart()};
-  u.onend=()=>{activeSpeech=null};
-  u.onerror=e=>{activeSpeech=null;if(e.error!=='canceled'&&e.error!=='interrupted'&&onerror)onerror(e)};
-  activeSpeech=u;synth.speak(u);return true;
+  const synth=window.speechSynthesis,request=++speechRequest;
+  clearTimeout(speechTimer);synth.resume();if(synth.speaking||synth.pending)synth.cancel();
+  speechTimer=setTimeout(()=>{
+    if(request!==speechRequest)return;
+    loadVoices();const u=new SpeechSynthesisUtterance(text),voices=voiceList.length?voiceList:synth.getVoices();
+    const matches=voices.filter(v=>v.lang&&v.lang.toLowerCase().startsWith(lang.toLowerCase().split('-')[0]));
+    u.voice=matches.find(v=>v.lang.toLowerCase()===lang.toLowerCase())||matches[0]||null;
+    u.lang=u.voice?.lang||lang;u.rate=rate;u.pitch=pitch;
+    u.onstart=()=>{speechUnlocked=true;if(onstart)onstart()};
+    u.onend=()=>{activeSpeech=null};
+    u.onerror=e=>{activeSpeech=null;if(e.error!=='canceled'&&e.error!=='interrupted'&&onerror)onerror(e)};
+    activeSpeech=u;synth.resume();synth.speak(u);
+  },80);return true;
 }
 function speakCurrent(){
   if(!state.sound){$('#feedback').innerHTML='<strong>声音已关闭</strong><p>点击右上角的 🔇 可以重新打开声音。</p>';return}
@@ -124,7 +131,9 @@ $('#checkBtn').onclick=check;$('#answerInput').onkeydown=e=>{if(e.key==='Enter')
 $$('.mode-btn').forEach(b=>b.onclick=()=>{state.mode=b.dataset.mode;$$('.mode-btn').forEach(x=>x.classList.toggle('active',x===b));buildQuestions()});
 $('#soundBtn').onclick=()=>{state.sound=!state.sound;$('#soundBtn').textContent=state.sound?'🔊':'🔇';if(state.sound)playSpeech('声音已打开','zh-CN',.9,1);else speechSynthesis?.cancel()};$('#settingsBtn').onclick=()=>$('#settingsModal').classList.add('open');$('#closeSettings').onclick=()=>$('#settingsModal').classList.remove('open');$('#settingsModal').onclick=e=>{if(e.target.id==='settingsModal')e.currentTarget.classList.remove('open')};$$('.switch').forEach(b=>b.onclick=()=>{const k=b.dataset.setting;state.settings[k]=!state.settings[k];b.classList.toggle('on',state.settings[k])});
 document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||['speakBtn','checkBtn','soundBtn'].includes(b.id))return;speakButton(b)});
-document.addEventListener('touchend',()=>{if(!speechUnlocked&&state.sound&&'speechSynthesis'in window)speechSynthesis.resume()},{once:true,passive:true});
+document.addEventListener('pointerdown',unlockSpeech,{once:true,passive:true});
+document.addEventListener('touchend',()=>{if(state.sound&&'speechSynthesis'in window)speechSynthesis.resume()},{passive:true});
+document.addEventListener('visibilitychange',()=>{if(!document.hidden&&state.sound&&'speechSynthesis'in window){speechSynthesis.resume();loadVoices()}});
 renderUnits();
 if('speechSynthesis' in window){loadVoices();speechSynthesis.onvoiceschanged=loadVoices}
 </script>
