@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffd35c"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="译林3A默写"><link rel="manifest" href="manifest.webmanifest">
   <title>译林3A英语默写乐园</title>
   <style>
     :root{--ink:#273043;--muted:#687387;--paper:#fffef9;--line:#dfe5eb;--yellow:#ffd35c;--coral:#ff766f;--mint:#70d6b3;--blue:#69a8ff;--purple:#9b82e8;--shadow:0 12px 30px rgba(40,53,77,.12)}
@@ -103,5 +104,6 @@ $('#soundBtn').onclick=()=>{state.sound=!state.sound;$('#soundBtn').textContent=
 renderUnits();
 if('speechSynthesis' in window){loadVoices();speechSynthesis.onvoiceschanged=loadVoices}
 </script>
+<script>if('serviceWorker' in navigator&&location.protocol!=='file:')navigator.serviceWorker.register('sw.js').catch(()=>{});</script>
 </body>
 </html>
