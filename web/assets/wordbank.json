@@ -1,0 +1,2756 @@
+[
+  {
+    "english": "algorithm",
+    "chinese": "算法",
+    "category": "AI基础",
+    "audio": "w001.wav"
+  },
+  {
+    "english": "model",
+    "chinese": "模型",
+    "category": "AI基础",
+    "audio": "w002.wav"
+  },
+  {
+    "english": "dataset",
+    "chinese": "数据集",
+    "category": "AI基础",
+    "audio": "w003.wav"
+  },
+  {
+    "english": "prompt",
+    "chinese": "提示词",
+    "category": "AI基础",
+    "audio": "w004.wav"
+  },
+  {
+    "english": "render",
+    "chinese": "渲染",
+    "category": "AI基础",
+    "audio": "w005.wav"
+  },
+  {
+    "english": "texture",
+    "chinese": "贴图/纹理",
+    "category": "AI基础",
+    "audio": "w006.wav"
+  },
+  {
+    "english": "layer",
+    "chinese": "图层",
+    "category": "AI基础",
+    "audio": "w007.wav"
+  },
+  {
+    "english": "vector",
+    "chinese": "矢量",
+    "category": "AI基础",
+    "audio": "w008.wav"
+  },
+  {
+    "english": "pixel",
+    "chinese": "像素",
+    "category": "AI基础",
+    "audio": "w009.wav"
+  },
+  {
+    "english": "compile",
+    "chinese": "编译",
+    "category": "AI基础",
+    "audio": "w010.wav"
+  },
+  {
+    "english": "debug",
+    "chinese": "调试",
+    "category": "AI基础",
+    "audio": "w011.wav"
+  },
+  {
+    "english": "parameter",
+    "chinese": "参数",
+    "category": "AI基础",
+    "audio": "w012.wav"
+  },
+  {
+    "english": "inference",
+    "chinese": "推理",
+    "category": "AI基础",
+    "audio": "w013.wav"
+  },
+  {
+    "english": "framework",
+    "chinese": "框架",
+    "category": "AI基础",
+    "audio": "w014.wav"
+  },
+  {
+    "english": "cache",
+    "chinese": "缓存",
+    "category": "AI基础",
+    "audio": "w015.wav"
+  },
+  {
+    "english": "syntax",
+    "chinese": "语法",
+    "category": "AI基础",
+    "audio": "w016.wav"
+  },
+  {
+    "english": "variable",
+    "chinese": "变量",
+    "category": "AI基础",
+    "audio": "w017.wav"
+  },
+  {
+    "english": "function",
+    "chinese": "函数",
+    "category": "AI基础",
+    "audio": "w018.wav"
+  },
+  {
+    "english": "instance",
+    "chinese": "实例",
+    "category": "AI基础",
+    "audio": "w019.wav"
+  },
+  {
+    "english": "viewport",
+    "chinese": "视口",
+    "category": "AI基础",
+    "audio": "w020.wav"
+  },
+  {
+    "english": "agent",
+    "chinese": "智能体",
+    "category": "AI基础",
+    "audio": "w021.wav"
+  },
+  {
+    "english": "multi-agent",
+    "chinese": "多智能体",
+    "category": "AI基础",
+    "audio": "w022.wav"
+  },
+  {
+    "english": "autonomous agent",
+    "chinese": "自主智能体",
+    "category": "AI基础",
+    "audio": "w023.wav"
+  },
+  {
+    "english": "LLM",
+    "chinese": "大语言模型",
+    "category": "AI基础",
+    "audio": "w024.wav"
+  },
+  {
+    "english": "multimodal model",
+    "chinese": "多模态模型",
+    "category": "AI基础",
+    "audio": "w025.wav"
+  },
+  {
+    "english": "foundation model",
+    "chinese": "基础模型",
+    "category": "AI基础",
+    "audio": "w026.wav"
+  },
+  {
+    "english": "open-source model",
+    "chinese": "开源模型",
+    "category": "AI基础",
+    "audio": "w027.wav"
+  },
+  {
+    "english": "closed-source model",
+    "chinese": "闭源模型",
+    "category": "AI基础",
+    "audio": "w028.wav"
+  },
+  {
+    "english": "fine-tuning",
+    "chinese": "微调",
+    "category": "AI基础",
+    "audio": "w029.wav"
+  },
+  {
+    "english": "pretraining",
+    "chinese": "预训练",
+    "category": "AI基础",
+    "audio": "w030.wav"
+  },
+  {
+    "english": "alignment",
+    "chinese": "对齐",
+    "category": "AI基础",
+    "audio": "w031.wav"
+  },
+  {
+    "english": "hallucination",
+    "chinese": "模型幻觉",
+    "category": "AI基础",
+    "audio": "w032.wav"
+  },
+  {
+    "english": "context window",
+    "chinese": "上下文窗口",
+    "category": "AI基础",
+    "audio": "w033.wav"
+  },
+  {
+    "english": "token",
+    "chinese": "词元/令牌",
+    "category": "AI基础",
+    "audio": "w034.wav"
+  },
+  {
+    "english": "embedding",
+    "chinese": "嵌入向量",
+    "category": "AI基础",
+    "audio": "w035.wav"
+  },
+  {
+    "english": "RAG",
+    "chinese": "检索增强生成",
+    "category": "AI基础",
+    "audio": "w036.wav"
+  },
+  {
+    "english": "prompt engineering",
+    "chinese": "提示词工程",
+    "category": "AI基础",
+    "audio": "w037.wav"
+  },
+  {
+    "english": "system prompt",
+    "chinese": "系统提示词",
+    "category": "AI基础",
+    "audio": "w038.wav"
+  },
+  {
+    "english": "user prompt",
+    "chinese": "用户提示词",
+    "category": "AI基础",
+    "audio": "w039.wav"
+  },
+  {
+    "english": "prompt template",
+    "chinese": "提示词模板",
+    "category": "AI基础",
+    "audio": "w040.wav"
+  },
+  {
+    "english": "chatbot",
+    "chinese": "聊天机器人",
+    "category": "AI基础",
+    "audio": "w041.wav"
+  },
+  {
+    "english": "reasoning",
+    "chinese": "推理能力",
+    "category": "AI基础",
+    "audio": "w042.wav"
+  },
+  {
+    "english": "chain-of-thought",
+    "chinese": "思维链",
+    "category": "AI基础",
+    "audio": "w043.wav"
+  },
+  {
+    "english": "self-consistency",
+    "chinese": "自一致性",
+    "category": "AI基础",
+    "audio": "w044.wav"
+  },
+  {
+    "english": "tool calling",
+    "chinese": "工具调用",
+    "category": "AI基础",
+    "audio": "w045.wav"
+  },
+  {
+    "english": "function call",
+    "chinese": "函数调用",
+    "category": "AI基础",
+    "audio": "w046.wav"
+  },
+  {
+    "english": "orchestration",
+    "chinese": "智能体编排",
+    "category": "AI基础",
+    "audio": "w047.wav"
+  },
+  {
+    "english": "workflow",
+    "chinese": "工作流",
+    "category": "AI基础",
+    "audio": "w048.wav"
+  },
+  {
+    "english": "memory",
+    "chinese": "AI记忆模块",
+    "category": "AI基础",
+    "audio": "w049.wav"
+  },
+  {
+    "english": "long-term memory",
+    "chinese": "长期记忆",
+    "category": "AI基础",
+    "audio": "w050.wav"
+  },
+  {
+    "english": "short-term memory",
+    "chinese": "短期记忆",
+    "category": "AI基础",
+    "audio": "w051.wav"
+  },
+  {
+    "english": "persona",
+    "chinese": "角色设定",
+    "category": "AI基础",
+    "audio": "w052.wav"
+  },
+  {
+    "english": "sandbox",
+    "chinese": "安全沙箱",
+    "category": "AI基础",
+    "audio": "w053.wav"
+  },
+  {
+    "english": "guardrail",
+    "chinese": "安全护栏",
+    "category": "AI基础",
+    "audio": "w054.wav"
+  },
+  {
+    "english": "model card",
+    "chinese": "模型卡片",
+    "category": "AI基础",
+    "audio": "w055.wav"
+  },
+  {
+    "english": "quantization",
+    "chinese": "模型量化",
+    "category": "AI基础",
+    "audio": "w056.wav"
+  },
+  {
+    "english": "distillation",
+    "chinese": "知识蒸馏",
+    "category": "AI基础",
+    "audio": "w057.wav"
+  },
+  {
+    "english": "inference endpoint",
+    "chinese": "推理端点",
+    "category": "AI基础",
+    "audio": "w058.wav"
+  },
+  {
+    "english": "batch inference",
+    "chinese": "批量推理",
+    "category": "AI基础",
+    "audio": "w059.wav"
+  },
+  {
+    "english": "streaming inference",
+    "chinese": "流式推理",
+    "category": "AI基础",
+    "audio": "w060.wav"
+  },
+  {
+    "english": "training set",
+    "chinese": "训练集",
+    "category": "AI基础",
+    "audio": "w061.wav"
+  },
+  {
+    "english": "validation set",
+    "chinese": "验证集",
+    "category": "AI基础",
+    "audio": "w062.wav"
+  },
+  {
+    "english": "test set",
+    "chinese": "测试集",
+    "category": "AI基础",
+    "audio": "w063.wav"
+  },
+  {
+    "english": "annotation",
+    "chinese": "数据标注",
+    "category": "AI基础",
+    "audio": "w064.wav"
+  },
+  {
+    "english": "label",
+    "chinese": "标签",
+    "category": "AI基础",
+    "audio": "w065.wav"
+  },
+  {
+    "english": "vector database",
+    "chinese": "向量数据库",
+    "category": "AI基础",
+    "audio": "w066.wav"
+  },
+  {
+    "english": "vector store",
+    "chinese": "向量存储",
+    "category": "AI基础",
+    "audio": "w067.wav"
+  },
+  {
+    "english": "similarity search",
+    "chinese": "相似度检索",
+    "category": "AI基础",
+    "audio": "w068.wav"
+  },
+  {
+    "english": "semantic search",
+    "chinese": "语义检索",
+    "category": "AI基础",
+    "audio": "w069.wav"
+  },
+  {
+    "english": "neural network",
+    "chinese": "神经网络",
+    "category": "AI基础",
+    "audio": "w070.wav"
+  },
+  {
+    "english": "transformer",
+    "chinese": "Transformer架构",
+    "category": "AI基础",
+    "audio": "w071.wav"
+  },
+  {
+    "english": "attention",
+    "chinese": "注意力机制",
+    "category": "AI基础",
+    "audio": "w072.wav"
+  },
+  {
+    "english": "convolutional",
+    "chinese": "卷积的",
+    "category": "AI基础",
+    "audio": "w073.wav"
+  },
+  {
+    "english": "generative",
+    "chinese": "生成式的",
+    "category": "AI基础",
+    "audio": "w074.wav"
+  },
+  {
+    "english": "discriminative",
+    "chinese": "判别式的",
+    "category": "AI基础",
+    "audio": "w075.wav"
+  },
+  {
+    "english": "latent space",
+    "chinese": "隐空间",
+    "category": "AI基础",
+    "audio": "w076.wav"
+  },
+  {
+    "english": "diffusion",
+    "chinese": "扩散模型",
+    "category": "AI基础",
+    "audio": "w077.wav"
+  },
+  {
+    "english": "latent diffusion",
+    "chinese": "隐式扩散",
+    "category": "AI基础",
+    "audio": "w078.wav"
+  },
+  {
+    "english": "overfitting",
+    "chinese": "过拟合",
+    "category": "AI基础",
+    "audio": "w079.wav"
+  },
+  {
+    "english": "underfitting",
+    "chinese": "欠拟合",
+    "category": "AI基础",
+    "audio": "w080.wav"
+  },
+  {
+    "english": "epoch",
+    "chinese": "训练轮次",
+    "category": "AI基础",
+    "audio": "w081.wav"
+  },
+  {
+    "english": "batch size",
+    "chinese": "批次大小",
+    "category": "AI基础",
+    "audio": "w082.wav"
+  },
+  {
+    "english": "learning rate",
+    "chinese": "学习率",
+    "category": "AI基础",
+    "audio": "w083.wav"
+  },
+  {
+    "english": "loss function",
+    "chinese": "损失函数",
+    "category": "AI基础",
+    "audio": "w084.wav"
+  },
+  {
+    "english": "gradient",
+    "chinese": "梯度",
+    "category": "AI基础",
+    "audio": "w085.wav"
+  },
+  {
+    "english": "backpropagation",
+    "chinese": "反向传播",
+    "category": "AI基础",
+    "audio": "w086.wav"
+  },
+  {
+    "english": "compute",
+    "chinese": "算力",
+    "category": "AI基础",
+    "audio": "w087.wav"
+  },
+  {
+    "english": "GPU",
+    "chinese": "图形处理器",
+    "category": "AI基础",
+    "audio": "w088.wav"
+  },
+  {
+    "english": "tensor",
+    "chinese": "张量",
+    "category": "AI基础",
+    "audio": "w089.wav"
+  },
+  {
+    "english": "plugin",
+    "chinese": "插件",
+    "category": "软件开发",
+    "audio": "w090.wav"
+  },
+  {
+    "english": "extension",
+    "chinese": "扩展程序",
+    "category": "软件开发",
+    "audio": "w091.wav"
+  },
+  {
+    "english": "add-on",
+    "chinese": "附加组件",
+    "category": "软件开发",
+    "audio": "w092.wav"
+  },
+  {
+    "english": "module",
+    "chinese": "功能模块",
+    "category": "软件开发",
+    "audio": "w093.wav"
+  },
+  {
+    "english": "component",
+    "chinese": "组件",
+    "category": "软件开发",
+    "audio": "w094.wav"
+  },
+  {
+    "english": "dependency",
+    "chinese": "依赖项",
+    "category": "软件开发",
+    "audio": "w095.wav"
+  },
+  {
+    "english": "repository",
+    "chinese": "代码仓库",
+    "category": "软件开发",
+    "audio": "w096.wav"
+  },
+  {
+    "english": "deployment",
+    "chinese": "部署",
+    "category": "软件开发",
+    "audio": "w097.wav"
+  },
+  {
+    "english": "local deployment",
+    "chinese": "本地部署",
+    "category": "软件开发",
+    "audio": "w098.wav"
+  },
+  {
+    "english": "cloud deployment",
+    "chinese": "云端部署",
+    "category": "软件开发",
+    "audio": "w099.wav"
+  },
+  {
+    "english": "API",
+    "chinese": "应用程序接口",
+    "category": "软件开发",
+    "audio": "w100.wav"
+  },
+  {
+    "english": "API key",
+    "chinese": "接口密钥",
+    "category": "软件开发",
+    "audio": "w101.wav"
+  },
+  {
+    "english": "endpoint",
+    "chinese": "接口端点",
+    "category": "软件开发",
+    "audio": "w102.wav"
+  },
+  {
+    "english": "SDK",
+    "chinese": "软件开发工具包",
+    "category": "软件开发",
+    "audio": "w103.wav"
+  },
+  {
+    "english": "runtime",
+    "chinese": "运行时",
+    "category": "软件开发",
+    "audio": "w104.wav"
+  },
+  {
+    "english": "library",
+    "chinese": "代码库",
+    "category": "软件开发",
+    "audio": "w105.wav"
+  },
+  {
+    "english": "middleware",
+    "chinese": "中间件",
+    "category": "软件开发",
+    "audio": "w106.wav"
+  },
+  {
+    "english": "callback",
+    "chinese": "回调函数",
+    "category": "软件开发",
+    "audio": "w107.wav"
+  },
+  {
+    "english": "payload",
+    "chinese": "请求负载",
+    "category": "软件开发",
+    "audio": "w108.wav"
+  },
+  {
+    "english": "authentication",
+    "chinese": "身份认证",
+    "category": "软件开发",
+    "audio": "w109.wav"
+  },
+  {
+    "english": "authorization",
+    "chinese": "权限授权",
+    "category": "软件开发",
+    "audio": "w110.wav"
+  },
+  {
+    "english": "webhook",
+    "chinese": "网络钩子",
+    "category": "软件开发",
+    "audio": "w111.wav"
+  },
+  {
+    "english": "sandbox environment",
+    "chinese": "沙箱环境",
+    "category": "软件开发",
+    "audio": "w112.wav"
+  },
+  {
+    "english": "version",
+    "chinese": "软件版本",
+    "category": "软件开发",
+    "audio": "w113.wav"
+  },
+  {
+    "english": "beta version",
+    "chinese": "测试版",
+    "category": "软件开发",
+    "audio": "w114.wav"
+  },
+  {
+    "english": "stable version",
+    "chinese": "稳定版",
+    "category": "软件开发",
+    "audio": "w115.wav"
+  },
+  {
+    "english": "snapshot",
+    "chinese": "快照",
+    "category": "软件开发",
+    "audio": "w116.wav"
+  },
+  {
+    "english": "build",
+    "chinese": "程序构建包",
+    "category": "软件开发",
+    "audio": "w117.wav"
+  },
+  {
+    "english": "log",
+    "chinese": "日志",
+    "category": "软件开发",
+    "audio": "w118.wav"
+  },
+  {
+    "english": "refresh",
+    "chinese": "刷新",
+    "category": "软件开发",
+    "audio": "w119.wav"
+  },
+  {
+    "english": "sync",
+    "chinese": "同步",
+    "category": "软件开发",
+    "audio": "w120.wav"
+  },
+  {
+    "english": "asynchronous",
+    "chinese": "异步的",
+    "category": "软件开发",
+    "audio": "w121.wav"
+  },
+  {
+    "english": "configuration",
+    "chinese": "配置",
+    "category": "软件开发",
+    "audio": "w122.wav"
+  },
+  {
+    "english": "preset",
+    "chinese": "预设参数",
+    "category": "软件开发",
+    "audio": "w123.wav"
+  },
+  {
+    "english": "profile",
+    "chinese": "配置文件",
+    "category": "软件开发",
+    "audio": "w124.wav"
+  },
+  {
+    "english": "import",
+    "chinese": "导入",
+    "category": "软件开发",
+    "audio": "w125.wav"
+  },
+  {
+    "english": "export",
+    "chinese": "导出",
+    "category": "软件开发",
+    "audio": "w126.wav"
+  },
+  {
+    "english": "overwrite",
+    "chinese": "覆盖",
+    "category": "软件开发",
+    "audio": "w127.wav"
+  },
+  {
+    "english": "backup",
+    "chinese": "备份",
+    "category": "软件开发",
+    "audio": "w128.wav"
+  },
+  {
+    "english": "restore",
+    "chinese": "恢复",
+    "category": "软件开发",
+    "audio": "w129.wav"
+  },
+  {
+    "english": "dependency conflict",
+    "chinese": "依赖冲突",
+    "category": "软件开发",
+    "audio": "w130.wav"
+  },
+  {
+    "english": "compatibility",
+    "chinese": "兼容性",
+    "category": "软件开发",
+    "audio": "w131.wav"
+  },
+  {
+    "english": "deprecated",
+    "chinese": "已废弃",
+    "category": "软件开发",
+    "audio": "w132.wav"
+  },
+  {
+    "english": "legacy",
+    "chinese": "旧版遗留",
+    "category": "软件开发",
+    "audio": "w133.wav"
+  },
+  {
+    "english": "daemon",
+    "chinese": "后台守护进程",
+    "category": "软件开发",
+    "audio": "w134.wav"
+  },
+  {
+    "english": "material",
+    "chinese": "材质",
+    "category": "三维与生成图像",
+    "audio": "w135.wav"
+  },
+  {
+    "english": "mesh",
+    "chinese": "模型网格",
+    "category": "三维与生成图像",
+    "audio": "w136.wav"
+  },
+  {
+    "english": "vertex",
+    "chinese": "顶点",
+    "category": "三维与生成图像",
+    "audio": "w137.wav"
+  },
+  {
+    "english": "polygon",
+    "chinese": "多边形",
+    "category": "三维与生成图像",
+    "audio": "w138.wav"
+  },
+  {
+    "english": "raster",
+    "chinese": "栅格",
+    "category": "三维与生成图像",
+    "audio": "w139.wav"
+  },
+  {
+    "english": "resolution",
+    "chinese": "分辨率",
+    "category": "三维与生成图像",
+    "audio": "w140.wav"
+  },
+  {
+    "english": "wireframe",
+    "chinese": "线框",
+    "category": "三维与生成图像",
+    "audio": "w141.wav"
+  },
+  {
+    "english": "mask",
+    "chinese": "蒙版",
+    "category": "三维与生成图像",
+    "audio": "w142.wav"
+  },
+  {
+    "english": "composite",
+    "chinese": "画面合成",
+    "category": "三维与生成图像",
+    "audio": "w143.wav"
+  },
+  {
+    "english": "denoise",
+    "chinese": "降噪",
+    "category": "三维与生成图像",
+    "audio": "w144.wav"
+  },
+  {
+    "english": "ray tracing",
+    "chinese": "光线追踪",
+    "category": "三维与生成图像",
+    "audio": "w145.wav"
+  },
+  {
+    "english": "sampling",
+    "chinese": "采样",
+    "category": "三维与生成图像",
+    "audio": "w146.wav"
+  },
+  {
+    "english": "uv map",
+    "chinese": "UV贴图",
+    "category": "三维与生成图像",
+    "audio": "w147.wav"
+  },
+  {
+    "english": "displacement",
+    "chinese": "置换",
+    "category": "三维与生成图像",
+    "audio": "w148.wav"
+  },
+  {
+    "english": "normal map",
+    "chinese": "法线贴图",
+    "category": "三维与生成图像",
+    "audio": "w149.wav"
+  },
+  {
+    "english": "height map",
+    "chinese": "高度图",
+    "category": "三维与生成图像",
+    "audio": "w150.wav"
+  },
+  {
+    "english": "asset",
+    "chinese": "资源资产",
+    "category": "三维与生成图像",
+    "audio": "w151.wav"
+  },
+  {
+    "english": "asset library",
+    "chinese": "资产库",
+    "category": "三维与生成图像",
+    "audio": "w152.wav"
+  },
+  {
+    "english": "topology",
+    "chinese": "拓扑结构",
+    "category": "三维与生成图像",
+    "audio": "w153.wav"
+  },
+  {
+    "english": "extrude",
+    "chinese": "挤出",
+    "category": "三维与生成图像",
+    "audio": "w154.wav"
+  },
+  {
+    "english": "boolean",
+    "chinese": "布尔运算",
+    "category": "三维与生成图像",
+    "audio": "w155.wav"
+  },
+  {
+    "english": "offset",
+    "chinese": "偏移",
+    "category": "三维与生成图像",
+    "audio": "w156.wav"
+  },
+  {
+    "english": "triangulate",
+    "chinese": "三角化",
+    "category": "三维与生成图像",
+    "audio": "w157.wav"
+  },
+  {
+    "english": "text-to-image",
+    "chinese": "文生图",
+    "category": "三维与生成图像",
+    "audio": "w158.wav"
+  },
+  {
+    "english": "image-to-image",
+    "chinese": "图生图",
+    "category": "三维与生成图像",
+    "audio": "w159.wav"
+  },
+  {
+    "english": "inpainting",
+    "chinese": "局部重绘",
+    "category": "三维与生成图像",
+    "audio": "w160.wav"
+  },
+  {
+    "english": "outpainting",
+    "chinese": "外绘扩展",
+    "category": "三维与生成图像",
+    "audio": "w161.wav"
+  },
+  {
+    "english": "controlnet",
+    "chinese": "控制网络",
+    "category": "三维与生成图像",
+    "audio": "w162.wav"
+  },
+  {
+    "english": "reference image",
+    "chinese": "参考图",
+    "category": "三维与生成图像",
+    "audio": "w163.wav"
+  },
+  {
+    "english": "negative prompt",
+    "chinese": "反向提示词",
+    "category": "三维与生成图像",
+    "audio": "w164.wav"
+  },
+  {
+    "english": "sampler",
+    "chinese": "采样器",
+    "category": "三维与生成图像",
+    "audio": "w165.wav"
+  },
+  {
+    "english": "steps",
+    "chinese": "采样步数",
+    "category": "三维与生成图像",
+    "audio": "w166.wav"
+  },
+  {
+    "english": "CFG scale",
+    "chinese": "提示词权重",
+    "category": "三维与生成图像",
+    "audio": "w167.wav"
+  },
+  {
+    "english": "seed",
+    "chinese": "随机种子",
+    "category": "三维与生成图像",
+    "audio": "w168.wav"
+  },
+  {
+    "english": "latent",
+    "chinese": "隐变量",
+    "category": "三维与生成图像",
+    "audio": "w169.wav"
+  },
+  {
+    "english": "tiling",
+    "chinese": "无缝平铺",
+    "category": "三维与生成图像",
+    "audio": "w170.wav"
+  },
+  {
+    "english": "upscale",
+    "chinese": "超分放大",
+    "category": "三维与生成图像",
+    "audio": "w171.wav"
+  },
+  {
+    "english": "face restoration",
+    "chinese": "人脸修复",
+    "category": "三维与生成图像",
+    "audio": "w172.wav"
+  },
+  {
+    "english": "LoRA",
+    "chinese": "低秩适配模型",
+    "category": "三维与生成图像",
+    "audio": "w173.wav"
+  },
+  {
+    "english": "embedding model",
+    "chinese": "嵌入模型",
+    "category": "三维与生成图像",
+    "audio": "w174.wav"
+  },
+  {
+    "english": "checkpoint",
+    "chinese": "模型权重文件",
+    "category": "三维与生成图像",
+    "audio": "w175.wav"
+  },
+  {
+    "english": "VAE",
+    "chinese": "变分自编码器",
+    "category": "三维与生成图像",
+    "audio": "w176.wav"
+  },
+  {
+    "english": "flux",
+    "chinese": "Flux生成模型",
+    "category": "三维与生成图像",
+    "audio": "w177.wav"
+  },
+  {
+    "english": "automation",
+    "chinese": "自动化",
+    "category": "三维与生成图像",
+    "audio": "w178.wav"
+  },
+  {
+    "english": "trigger",
+    "chinese": "触发条件",
+    "category": "三维与生成图像",
+    "audio": "w179.wav"
+  },
+  {
+    "english": "iteration",
+    "chinese": "迭代",
+    "category": "模型与智能体",
+    "audio": "w180.wav"
+  },
+  {
+    "english": "iteration loop",
+    "chinese": "迭代循环",
+    "category": "模型与智能体",
+    "audio": "w181.wav"
+  },
+  {
+    "english": "constraint",
+    "chinese": "约束条件",
+    "category": "模型与智能体",
+    "audio": "w182.wav"
+  },
+  {
+    "english": "metric",
+    "chinese": "评估指标",
+    "category": "模型与智能体",
+    "audio": "w183.wav"
+  },
+  {
+    "english": "benchmark",
+    "chinese": "基准测试",
+    "category": "模型与智能体",
+    "audio": "w184.wav"
+  },
+  {
+    "english": "latency",
+    "chinese": "延迟",
+    "category": "模型与智能体",
+    "audio": "w185.wav"
+  },
+  {
+    "english": "throughput",
+    "chinese": "吞吐量",
+    "category": "模型与智能体",
+    "audio": "w186.wav"
+  },
+  {
+    "english": "bandwidth",
+    "chinese": "带宽",
+    "category": "模型与智能体",
+    "audio": "w187.wav"
+  },
+  {
+    "english": "token limit",
+    "chinese": "令牌上限",
+    "category": "模型与智能体",
+    "audio": "w188.wav"
+  },
+  {
+    "english": "rate limit",
+    "chinese": "请求频率限制",
+    "category": "模型与智能体",
+    "audio": "w189.wav"
+  },
+  {
+    "english": "privacy",
+    "chinese": "隐私",
+    "category": "模型与智能体",
+    "audio": "w190.wav"
+  },
+  {
+    "english": "encryption",
+    "chinese": "加密",
+    "category": "模型与智能体",
+    "audio": "w191.wav"
+  },
+  {
+    "english": "open weight",
+    "chinese": "开放权重",
+    "category": "模型与智能体",
+    "audio": "w192.wav"
+  },
+  {
+    "english": "quantized model",
+    "chinese": "量化模型",
+    "category": "模型与智能体",
+    "audio": "w193.wav"
+  },
+  {
+    "english": "chat template",
+    "chinese": "对话模板",
+    "category": "模型与智能体",
+    "audio": "w194.wav"
+  },
+  {
+    "english": "toolset",
+    "chinese": "工具集",
+    "category": "模型与智能体",
+    "audio": "w195.wav"
+  },
+  {
+    "english": "capability",
+    "chinese": "能力",
+    "category": "模型与智能体",
+    "audio": "w196.wav"
+  },
+  {
+    "english": "limitation",
+    "chinese": "局限性",
+    "category": "模型与智能体",
+    "audio": "w197.wav"
+  },
+  {
+    "english": "ontology",
+    "chinese": "知识本体",
+    "category": "模型与智能体",
+    "audio": "w198.wav"
+  },
+  {
+    "english": "knowledge graph",
+    "chinese": "知识图谱",
+    "category": "模型与智能体",
+    "audio": "w199.wav"
+  },
+  {
+    "english": "semantic",
+    "chinese": "语义的",
+    "category": "模型与智能体",
+    "audio": "w200.wav"
+  },
+  {
+    "english": "syntactic",
+    "chinese": "语法的",
+    "category": "模型与智能体",
+    "audio": "w201.wav"
+  },
+  {
+    "english": "corpus",
+    "chinese": "语料库",
+    "category": "模型与智能体",
+    "audio": "w202.wav"
+  },
+  {
+    "english": "fine-grained",
+    "chinese": "细粒度",
+    "category": "模型与智能体",
+    "audio": "w203.wav"
+  },
+  {
+    "english": "coarse-grained",
+    "chinese": "粗粒度",
+    "category": "模型与智能体",
+    "audio": "w204.wav"
+  },
+  {
+    "english": "modality",
+    "chinese": "模态",
+    "category": "模型与智能体",
+    "audio": "w205.wav"
+  },
+  {
+    "english": "tokenizer",
+    "chinese": "分词器",
+    "category": "模型与智能体",
+    "audio": "w206.wav"
+  },
+  {
+    "english": "parser",
+    "chinese": "解析器",
+    "category": "模型与智能体",
+    "audio": "w207.wav"
+  },
+  {
+    "english": "OpenAI",
+    "chinese": "开放人工智能公司",
+    "category": "模型与智能体",
+    "audio": "w208.wav"
+  },
+  {
+    "english": "Codex",
+    "chinese": "代码专用大模型",
+    "category": "模型与智能体",
+    "audio": "w209.wav"
+  },
+  {
+    "english": "GPT",
+    "chinese": "生成式预训练变换器",
+    "category": "模型与智能体",
+    "audio": "w210.wav"
+  },
+  {
+    "english": "GPT-4",
+    "chinese": "四代多模态大模型",
+    "category": "模型与智能体",
+    "audio": "w211.wav"
+  },
+  {
+    "english": "GPT-4o",
+    "chinese": "实时多模态GPT模型",
+    "category": "模型与智能体",
+    "audio": "w212.wav"
+  },
+  {
+    "english": "GPT-3.5",
+    "chinese": "轻量对话大模型",
+    "category": "模型与智能体",
+    "audio": "w213.wav"
+  },
+  {
+    "english": "o1",
+    "chinese": "推理强化大模型",
+    "category": "模型与智能体",
+    "audio": "w214.wav"
+  },
+  {
+    "english": "DALL-E",
+    "chinese": "OpenAI文生图模型",
+    "category": "模型与智能体",
+    "audio": "w215.wav"
+  },
+  {
+    "english": "Whisper",
+    "chinese": "语音识别模型",
+    "category": "模型与智能体",
+    "audio": "w216.wav"
+  },
+  {
+    "english": "Sora",
+    "chinese": "AI视频生成模型",
+    "category": "模型与智能体",
+    "audio": "w217.wav"
+  },
+  {
+    "english": "DeepSeek",
+    "chinese": "深度求索大模型",
+    "category": "模型与智能体",
+    "audio": "w218.wav"
+  },
+  {
+    "english": "DeepSeek-V2",
+    "chinese": "二代深度求索模型",
+    "category": "模型与智能体",
+    "audio": "w219.wav"
+  },
+  {
+    "english": "DeepSeek-Coder",
+    "chinese": "深度求索代码模型",
+    "category": "模型与智能体",
+    "audio": "w220.wav"
+  },
+  {
+    "english": "Qwen",
+    "chinese": "通义千问基础模型",
+    "category": "模型与智能体",
+    "audio": "w221.wav"
+  },
+  {
+    "english": "Qwen-VL",
+    "chinese": "通义千问多模态模型",
+    "category": "模型与智能体",
+    "audio": "w222.wav"
+  },
+  {
+    "english": "Qwen-Coder",
+    "chinese": "通义千问代码模型",
+    "category": "模型与智能体",
+    "audio": "w223.wav"
+  },
+  {
+    "english": "Doubao",
+    "chinese": "豆包AI",
+    "category": "模型与智能体",
+    "audio": "w224.wav"
+  },
+  {
+    "english": "GLM",
+    "chinese": "通用大语言模型",
+    "category": "模型与智能体",
+    "audio": "w225.wav"
+  },
+  {
+    "english": "Zhipu",
+    "chinese": "智谱AI",
+    "category": "模型与智能体",
+    "audio": "w226.wav"
+  },
+  {
+    "english": "Llama",
+    "chinese": "Meta开源大模型",
+    "category": "模型与智能体",
+    "audio": "w227.wav"
+  },
+  {
+    "english": "Llama 3",
+    "chinese": "三代Llama开源模型",
+    "category": "模型与智能体",
+    "audio": "w228.wav"
+  },
+  {
+    "english": "Mistral",
+    "chinese": "欧洲开源大模型",
+    "category": "模型与智能体",
+    "audio": "w229.wav"
+  },
+  {
+    "english": "Gemma",
+    "chinese": "谷歌开源大模型",
+    "category": "模型与智能体",
+    "audio": "w230.wav"
+  },
+  {
+    "english": "Gemini",
+    "chinese": "谷歌多模态大模型",
+    "category": "模型与智能体",
+    "audio": "w231.wav"
+  },
+  {
+    "english": "Claude",
+    "chinese": "Anthropic对话大模型",
+    "category": "模型与智能体",
+    "audio": "w232.wav"
+  },
+  {
+    "english": "Anthropic",
+    "chinese": "Claude所属公司",
+    "category": "模型与智能体",
+    "audio": "w233.wav"
+  },
+  {
+    "english": "Midjourney",
+    "chinese": "AI绘图工具",
+    "category": "模型与智能体",
+    "audio": "w234.wav"
+  },
+  {
+    "english": "Stable Diffusion",
+    "chinese": "稳定扩散文生图模型",
+    "category": "模型与智能体",
+    "audio": "w235.wav"
+  },
+  {
+    "english": "Flux",
+    "chinese": "新一代文生图模型",
+    "category": "模型与智能体",
+    "audio": "w236.wav"
+  },
+  {
+    "english": "Kimi",
+    "chinese": "长文本大模型",
+    "category": "模型与智能体",
+    "audio": "w237.wav"
+  },
+  {
+    "english": "Moonshot",
+    "chinese": "月之暗面科技",
+    "category": "模型与智能体",
+    "audio": "w238.wav"
+  },
+  {
+    "english": "MoE",
+    "chinese": "混合专家模型",
+    "category": "模型与智能体",
+    "audio": "w239.wav"
+  },
+  {
+    "english": "MLP",
+    "chinese": "多层感知机",
+    "category": "模型与智能体",
+    "audio": "w240.wav"
+  },
+  {
+    "english": "CNN",
+    "chinese": "卷积神经网络",
+    "category": "模型与智能体",
+    "audio": "w241.wav"
+  },
+  {
+    "english": "RNN",
+    "chinese": "循环神经网络",
+    "category": "模型与智能体",
+    "audio": "w242.wav"
+  },
+  {
+    "english": "LSTM",
+    "chinese": "长短期记忆网络",
+    "category": "模型与智能体",
+    "audio": "w243.wav"
+  },
+  {
+    "english": "GRU",
+    "chinese": "门控循环单元",
+    "category": "模型与智能体",
+    "audio": "w244.wav"
+  },
+  {
+    "english": "MHA",
+    "chinese": "多头注意力机制",
+    "category": "模型与智能体",
+    "audio": "w245.wav"
+  },
+  {
+    "english": "RoPE",
+    "chinese": "旋转位置编码",
+    "category": "模型与智能体",
+    "audio": "w246.wav"
+  },
+  {
+    "english": "RMSNorm",
+    "chinese": "均方根归一化",
+    "category": "模型与智能体",
+    "audio": "w247.wav"
+  },
+  {
+    "english": "PEFT",
+    "chinese": "参数高效微调",
+    "category": "模型与智能体",
+    "audio": "w248.wav"
+  },
+  {
+    "english": "QLoRA",
+    "chinese": "量化低秩适配微调",
+    "category": "模型与智能体",
+    "audio": "w249.wav"
+  },
+  {
+    "english": "BPE",
+    "chinese": "字节对编码分词算法",
+    "category": "模型与智能体",
+    "audio": "w250.wav"
+  },
+  {
+    "english": "SFT",
+    "chinese": "有监督微调",
+    "category": "模型与智能体",
+    "audio": "w251.wav"
+  },
+  {
+    "english": "RLHF",
+    "chinese": "人类反馈强化学习",
+    "category": "模型与智能体",
+    "audio": "w252.wav"
+  },
+  {
+    "english": "DPO",
+    "chinese": "直接偏好优化",
+    "category": "模型与智能体",
+    "audio": "w253.wav"
+  },
+  {
+    "english": "ORPO",
+    "chinese": "比值偏好优化",
+    "category": "模型与智能体",
+    "audio": "w254.wav"
+  },
+  {
+    "english": "RM",
+    "chinese": "奖励模型",
+    "category": "模型与智能体",
+    "audio": "w255.wav"
+  },
+  {
+    "english": "REST",
+    "chinese": "表述性状态传递接口",
+    "category": "模型与智能体",
+    "audio": "w256.wav"
+  },
+  {
+    "english": "JSON",
+    "chinese": "数据交换格式",
+    "category": "模型与智能体",
+    "audio": "w257.wav"
+  },
+  {
+    "english": "YAML",
+    "chinese": "配置文件格式",
+    "category": "模型与智能体",
+    "audio": "w258.wav"
+  },
+  {
+    "english": "CLI",
+    "chinese": "命令行界面",
+    "category": "模型与智能体",
+    "audio": "w259.wav"
+  },
+  {
+    "english": "GUI",
+    "chinese": "图形用户界面",
+    "category": "模型与智能体",
+    "audio": "w260.wav"
+  },
+  {
+    "english": "SSH",
+    "chinese": "安全远程连接协议",
+    "category": "模型与智能体",
+    "audio": "w261.wav"
+  },
+  {
+    "english": "VM",
+    "chinese": "虚拟机",
+    "category": "模型与智能体",
+    "audio": "w262.wav"
+  },
+  {
+    "english": "CPU",
+    "chinese": "中央处理器",
+    "category": "模型与智能体",
+    "audio": "w263.wav"
+  },
+  {
+    "english": "NPU",
+    "chinese": "神经网络处理器",
+    "category": "模型与智能体",
+    "audio": "w264.wav"
+  },
+  {
+    "english": "TPU",
+    "chinese": "张量处理器",
+    "category": "模型与智能体",
+    "audio": "w265.wav"
+  },
+  {
+    "english": "CUDA",
+    "chinese": "英伟达并行计算平台",
+    "category": "模型与智能体",
+    "audio": "w266.wav"
+  },
+  {
+    "english": "ONNX",
+    "chinese": "开放神经网络交换格式",
+    "category": "模型与智能体",
+    "audio": "w267.wav"
+  },
+  {
+    "english": "GGUF",
+    "chinese": "大模型通用文件格式",
+    "category": "模型与智能体",
+    "audio": "w268.wav"
+  },
+  {
+    "english": "GGML",
+    "chinese": "旧版大模型二进制格式",
+    "category": "模型与智能体",
+    "audio": "w269.wav"
+  },
+  {
+    "english": "GPTs",
+    "chinese": "自定义智能体",
+    "category": "模型与智能体",
+    "audio": "w270.wav"
+  },
+  {
+    "english": "GPT Builder",
+    "chinese": "GPT创建工具",
+    "category": "模型与智能体",
+    "audio": "w271.wav"
+  },
+  {
+    "english": "Custom GPT",
+    "chinese": "自定义GPT智能体",
+    "category": "模型与智能体",
+    "audio": "w272.wav"
+  },
+  {
+    "english": "Assistant API",
+    "chinese": "助手接口",
+    "category": "模型与智能体",
+    "audio": "w273.wav"
+  },
+  {
+    "english": "Code Interpreter",
+    "chinese": "代码解释器",
+    "category": "模型与智能体",
+    "audio": "w274.wav"
+  },
+  {
+    "english": "Knowledge base",
+    "chinese": "知识库",
+    "category": "模型与智能体",
+    "audio": "w275.wav"
+  },
+  {
+    "english": "Web Search",
+    "chinese": "联网搜索能力",
+    "category": "模型与智能体",
+    "audio": "w276.wav"
+  },
+  {
+    "english": "multimodal",
+    "chinese": "多模态的",
+    "category": "模型与智能体",
+    "audio": "w277.wav"
+  },
+  {
+    "english": "text modality",
+    "chinese": "文本模态",
+    "category": "模型与智能体",
+    "audio": "w278.wav"
+  },
+  {
+    "english": "vision modality",
+    "chinese": "视觉模态",
+    "category": "模型与智能体",
+    "audio": "w279.wav"
+  },
+  {
+    "english": "audio modality",
+    "chinese": "音频模态",
+    "category": "模型与智能体",
+    "audio": "w280.wav"
+  },
+  {
+    "english": "agent framework",
+    "chinese": "智能体框架",
+    "category": "模型与智能体",
+    "audio": "w281.wav"
+  },
+  {
+    "english": "open agent",
+    "chinese": "开源智能体",
+    "category": "模型与智能体",
+    "audio": "w282.wav"
+  },
+  {
+    "english": "code agent",
+    "chinese": "代码智能体",
+    "category": "模型与智能体",
+    "audio": "w283.wav"
+  },
+  {
+    "english": "reasoning agent",
+    "chinese": "推理智能体",
+    "category": "模型与智能体",
+    "audio": "w284.wav"
+  },
+  {
+    "english": "shot",
+    "chinese": "单镜头",
+    "category": "动画与镜头",
+    "audio": "w285.wav"
+  },
+  {
+    "english": "scene",
+    "chinese": "场景",
+    "category": "动画与镜头",
+    "audio": "w286.wav"
+  },
+  {
+    "english": "sequence",
+    "chinese": "镜头序列",
+    "category": "动画与镜头",
+    "audio": "w287.wav"
+  },
+  {
+    "english": "frame",
+    "chinese": "帧",
+    "category": "动画与镜头",
+    "audio": "w288.wav"
+  },
+  {
+    "english": "keyframe",
+    "chinese": "关键帧",
+    "category": "动画与镜头",
+    "audio": "w289.wav"
+  },
+  {
+    "english": "in-between",
+    "chinese": "中间补间帧",
+    "category": "动画与镜头",
+    "audio": "w290.wav"
+  },
+  {
+    "english": "storyboard",
+    "chinese": "分镜/故事板",
+    "category": "动画与镜头",
+    "audio": "w291.wav"
+  },
+  {
+    "english": "animatic",
+    "chinese": "动态分镜预演",
+    "category": "动画与镜头",
+    "audio": "w292.wav"
+  },
+  {
+    "english": "composition",
+    "chinese": "画面构图",
+    "category": "动画与镜头",
+    "audio": "w293.wav"
+  },
+  {
+    "english": "framing",
+    "chinese": "取景",
+    "category": "动画与镜头",
+    "audio": "w294.wav"
+  },
+  {
+    "english": "POV",
+    "chinese": "主观镜头",
+    "category": "动画与镜头",
+    "audio": "w295.wav"
+  },
+  {
+    "english": "CU",
+    "chinese": "特写镜头",
+    "category": "动画与镜头",
+    "audio": "w296.wav"
+  },
+  {
+    "english": "ECU",
+    "chinese": "大特写镜头",
+    "category": "动画与镜头",
+    "audio": "w297.wav"
+  },
+  {
+    "english": "MS",
+    "chinese": "中景镜头",
+    "category": "动画与镜头",
+    "audio": "w298.wav"
+  },
+  {
+    "english": "WS",
+    "chinese": "全景镜头",
+    "category": "动画与镜头",
+    "audio": "w299.wav"
+  },
+  {
+    "english": "EWS",
+    "chinese": "大全景镜头",
+    "category": "动画与镜头",
+    "audio": "w300.wav"
+  },
+  {
+    "english": "tracking shot",
+    "chinese": "跟拍镜头",
+    "category": "动画与镜头",
+    "audio": "w301.wav"
+  },
+  {
+    "english": "dolly shot",
+    "chinese": "推拉镜头",
+    "category": "动画与镜头",
+    "audio": "w302.wav"
+  },
+  {
+    "english": "pan",
+    "chinese": "水平摇镜",
+    "category": "动画与镜头",
+    "audio": "w303.wav"
+  },
+  {
+    "english": "tilt",
+    "chinese": "俯仰摇镜",
+    "category": "动画与镜头",
+    "audio": "w304.wav"
+  },
+  {
+    "english": "zoom",
+    "chinese": "变焦",
+    "category": "动画与镜头",
+    "audio": "w305.wav"
+  },
+  {
+    "english": "rack focus",
+    "chinese": "焦点切换",
+    "category": "动画与镜头",
+    "audio": "w306.wav"
+  },
+  {
+    "english": "depth of field",
+    "chinese": "景深",
+    "category": "动画与镜头",
+    "audio": "w307.wav"
+  },
+  {
+    "english": "DOF",
+    "chinese": "景深缩写",
+    "category": "动画与镜头",
+    "audio": "w308.wav"
+  },
+  {
+    "english": "bokeh",
+    "chinese": "焦外虚化",
+    "category": "动画与镜头",
+    "audio": "w309.wav"
+  },
+  {
+    "english": "aspect ratio",
+    "chinese": "画面宽高比",
+    "category": "动画与镜头",
+    "audio": "w310.wav"
+  },
+  {
+    "english": "fps",
+    "chinese": "每秒帧数",
+    "category": "动画与镜头",
+    "audio": "w311.wav"
+  },
+  {
+    "english": "motion blur",
+    "chinese": "运动模糊",
+    "category": "动画与镜头",
+    "audio": "w312.wav"
+  },
+  {
+    "english": "shutter",
+    "chinese": "快门",
+    "category": "动画与镜头",
+    "audio": "w313.wav"
+  },
+  {
+    "english": "exposure",
+    "chinese": "曝光",
+    "category": "动画与镜头",
+    "audio": "w314.wav"
+  },
+  {
+    "english": "rig",
+    "chinese": "骨骼绑定",
+    "category": "动画与镜头",
+    "audio": "w315.wav"
+  },
+  {
+    "english": "rigging",
+    "chinese": "绑定工序",
+    "category": "动画与镜头",
+    "audio": "w316.wav"
+  },
+  {
+    "english": "skeleton",
+    "chinese": "骨骼",
+    "category": "动画与镜头",
+    "audio": "w317.wav"
+  },
+  {
+    "english": "inverse kinematics",
+    "chinese": "反向动力学",
+    "category": "动画与镜头",
+    "audio": "w318.wav"
+  },
+  {
+    "english": "IK",
+    "chinese": "反向动力学缩写",
+    "category": "动画与镜头",
+    "audio": "w319.wav"
+  },
+  {
+    "english": "FK",
+    "chinese": "正向动力学缩写",
+    "category": "动画与镜头",
+    "audio": "w320.wav"
+  },
+  {
+    "english": "morph target",
+    "chinese": "变形目标",
+    "category": "动画与镜头",
+    "audio": "w321.wav"
+  },
+  {
+    "english": "blend shape",
+    "chinese": "表情融合形状",
+    "category": "动画与镜头",
+    "audio": "w322.wav"
+  },
+  {
+    "english": "pose",
+    "chinese": "姿势",
+    "category": "动画与镜头",
+    "audio": "w323.wav"
+  },
+  {
+    "english": "motion capture",
+    "chinese": "动作捕捉",
+    "category": "动画与镜头",
+    "audio": "w324.wav"
+  },
+  {
+    "english": "mocap",
+    "chinese": "动捕简写",
+    "category": "动画与镜头",
+    "audio": "w325.wav"
+  },
+  {
+    "english": "timeline",
+    "chinese": "时间轴",
+    "category": "动画与镜头",
+    "audio": "w326.wav"
+  },
+  {
+    "english": "timeline track",
+    "chinese": "时间轨道",
+    "category": "动画与镜头",
+    "audio": "w327.wav"
+  },
+  {
+    "english": "easing",
+    "chinese": "缓动效果",
+    "category": "动画与镜头",
+    "audio": "w328.wav"
+  },
+  {
+    "english": "ease-in",
+    "chinese": "缓入",
+    "category": "动画与镜头",
+    "audio": "w329.wav"
+  },
+  {
+    "english": "ease-out",
+    "chinese": "缓出",
+    "category": "动画与镜头",
+    "audio": "w330.wav"
+  },
+  {
+    "english": "ease-in-out",
+    "chinese": "缓入缓出",
+    "category": "动画与镜头",
+    "audio": "w331.wav"
+  },
+  {
+    "english": "loop",
+    "chinese": "动画循环",
+    "category": "动画与镜头",
+    "audio": "w332.wav"
+  },
+  {
+    "english": "cycle",
+    "chinese": "动画周期",
+    "category": "动画与镜头",
+    "audio": "w333.wav"
+  },
+  {
+    "english": "squash and stretch",
+    "chinese": "挤压拉伸动画法则",
+    "category": "动画与镜头",
+    "audio": "w334.wav"
+  },
+  {
+    "english": "VFX",
+    "chinese": "视觉特效",
+    "category": "动画与镜头",
+    "audio": "w335.wav"
+  },
+  {
+    "english": "FX",
+    "chinese": "特效简写",
+    "category": "动画与镜头",
+    "audio": "w336.wav"
+  },
+  {
+    "english": "post-production",
+    "chinese": "后期制作",
+    "category": "动画与镜头",
+    "audio": "w337.wav"
+  },
+  {
+    "english": "post",
+    "chinese": "后期简写",
+    "category": "动画与镜头",
+    "audio": "w338.wav"
+  },
+  {
+    "english": "compositing",
+    "chinese": "画面合成工作",
+    "category": "动画与镜头",
+    "audio": "w339.wav"
+  },
+  {
+    "english": "matte",
+    "chinese": "遮罩",
+    "category": "动画与镜头",
+    "audio": "w340.wav"
+  },
+  {
+    "english": "alpha",
+    "chinese": "透明通道",
+    "category": "动画与镜头",
+    "audio": "w341.wav"
+  },
+  {
+    "english": "alpha channel",
+    "chinese": "Alpha透明通道",
+    "category": "动画与镜头",
+    "audio": "w342.wav"
+  },
+  {
+    "english": "rotoscoping",
+    "chinese": "转描抠像",
+    "category": "动画与镜头",
+    "audio": "w343.wav"
+  },
+  {
+    "english": "particle",
+    "chinese": "粒子",
+    "category": "动画与镜头",
+    "audio": "w344.wav"
+  },
+  {
+    "english": "particle system",
+    "chinese": "粒子系统",
+    "category": "动画与镜头",
+    "audio": "w345.wav"
+  },
+  {
+    "english": "simulation",
+    "chinese": "物理模拟",
+    "category": "动画与镜头",
+    "audio": "w346.wav"
+  },
+  {
+    "english": "physics",
+    "chinese": "物理引擎",
+    "category": "动画与镜头",
+    "audio": "w347.wav"
+  },
+  {
+    "english": "collision",
+    "chinese": "碰撞",
+    "category": "动画与镜头",
+    "audio": "w348.wav"
+  },
+  {
+    "english": "cloth simulation",
+    "chinese": "布料模拟",
+    "category": "动画与镜头",
+    "audio": "w349.wav"
+  },
+  {
+    "english": "fluid simulation",
+    "chinese": "流体模拟",
+    "category": "动画与镜头",
+    "audio": "w350.wav"
+  },
+  {
+    "english": "render pass",
+    "chinese": "渲染分层",
+    "category": "动画与镜头",
+    "audio": "w351.wav"
+  },
+  {
+    "english": "AOV",
+    "chinese": "自定义渲染输出层",
+    "category": "动画与镜头",
+    "audio": "w352.wav"
+  },
+  {
+    "english": "color grading",
+    "chinese": "调色",
+    "category": "动画与镜头",
+    "audio": "w353.wav"
+  },
+  {
+    "english": "color correction",
+    "chinese": "校色",
+    "category": "动画与镜头",
+    "audio": "w354.wav"
+  },
+  {
+    "english": "LUT",
+    "chinese": "颜色查找表",
+    "category": "动画与镜头",
+    "audio": "w355.wav"
+  },
+  {
+    "english": "HDR",
+    "chinese": "高动态范围",
+    "category": "动画与镜头",
+    "audio": "w356.wav"
+  },
+  {
+    "english": "SDR",
+    "chinese": "标准动态范围",
+    "category": "动画与镜头",
+    "audio": "w357.wav"
+  },
+  {
+    "english": "codec",
+    "chinese": "编码解码器",
+    "category": "动画与镜头",
+    "audio": "w358.wav"
+  },
+  {
+    "english": "bitrate",
+    "chinese": "码率",
+    "category": "动画与镜头",
+    "audio": "w359.wav"
+  },
+  {
+    "english": "text-to-video",
+    "chinese": "文生视频",
+    "category": "动画与镜头",
+    "audio": "w360.wav"
+  },
+  {
+    "english": "video-to-video",
+    "chinese": "视频转视频",
+    "category": "动画与镜头",
+    "audio": "w361.wav"
+  },
+  {
+    "english": "frame consistency",
+    "chinese": "帧一致性",
+    "category": "动画与镜头",
+    "audio": "w362.wav"
+  },
+  {
+    "english": "temporal consistency",
+    "chinese": "时间一致性",
+    "category": "动画与镜头",
+    "audio": "w363.wav"
+  },
+  {
+    "english": "temporal",
+    "chinese": "时间维度",
+    "category": "动画与镜头",
+    "audio": "w364.wav"
+  },
+  {
+    "english": "motion vector",
+    "chinese": "运动向量",
+    "category": "动画与镜头",
+    "audio": "w365.wav"
+  },
+  {
+    "english": "motion denoising",
+    "chinese": "运动降噪",
+    "category": "动画与镜头",
+    "audio": "w366.wav"
+  },
+  {
+    "english": "interpolation",
+    "chinese": "插帧",
+    "category": "动画与镜头",
+    "audio": "w367.wav"
+  },
+  {
+    "english": "frame interpolation",
+    "chinese": "视频插帧",
+    "category": "动画与镜头",
+    "audio": "w368.wav"
+  },
+  {
+    "english": "video latent",
+    "chinese": "视频隐变量",
+    "category": "动画与镜头",
+    "audio": "w369.wav"
+  },
+  {
+    "english": "shot transition",
+    "chinese": "镜头转场",
+    "category": "动画与镜头",
+    "audio": "w370.wav"
+  },
+  {
+    "english": "cut",
+    "chinese": "硬切转场",
+    "category": "动画与镜头",
+    "audio": "w371.wav"
+  },
+  {
+    "english": "dissolve",
+    "chinese": "淡入淡出转场",
+    "category": "动画与镜头",
+    "audio": "w372.wav"
+  },
+  {
+    "english": "wipe",
+    "chinese": "划像转场",
+    "category": "动画与镜头",
+    "audio": "w373.wav"
+  },
+  {
+    "english": "rendering",
+    "chinese": "渲染工序",
+    "category": "动画与镜头",
+    "audio": "w374.wav"
+  },
+  {
+    "english": "renderer",
+    "chinese": "渲染器",
+    "category": "动画与镜头",
+    "audio": "w375.wav"
+  },
+  {
+    "english": "render engine",
+    "chinese": "渲染引擎",
+    "category": "动画与镜头",
+    "audio": "w376.wav"
+  },
+  {
+    "english": "offline render",
+    "chinese": "离线渲染",
+    "category": "动画与镜头",
+    "audio": "w377.wav"
+  },
+  {
+    "english": "real-time render",
+    "chinese": "实时渲染",
+    "category": "动画与镜头",
+    "audio": "w378.wav"
+  },
+  {
+    "english": "viewport render",
+    "chinese": "视口渲染",
+    "category": "动画与镜头",
+    "audio": "w379.wav"
+  },
+  {
+    "english": "render queue",
+    "chinese": "渲染队列",
+    "category": "动画与镜头",
+    "audio": "w380.wav"
+  },
+  {
+    "english": "render region",
+    "chinese": "渲染区域",
+    "category": "渲染与输出",
+    "audio": "w381.wav"
+  },
+  {
+    "english": "render layer",
+    "chinese": "渲染图层",
+    "category": "渲染与输出",
+    "audio": "w382.wav"
+  },
+  {
+    "english": "bake",
+    "chinese": "贴图/光照烘焙",
+    "category": "渲染与输出",
+    "audio": "w383.wav"
+  },
+  {
+    "english": "baking",
+    "chinese": "烘焙操作",
+    "category": "渲染与输出",
+    "audio": "w384.wav"
+  },
+  {
+    "english": "denoiser",
+    "chinese": "降噪器",
+    "category": "渲染与输出",
+    "audio": "w385.wav"
+  },
+  {
+    "english": "sample",
+    "chinese": "采样样本",
+    "category": "渲染与输出",
+    "audio": "w386.wav"
+  },
+  {
+    "english": "sample count",
+    "chinese": "采样数量",
+    "category": "渲染与输出",
+    "audio": "w387.wav"
+  },
+  {
+    "english": "spp",
+    "chinese": "每像素采样数",
+    "category": "渲染与输出",
+    "audio": "w388.wav"
+  },
+  {
+    "english": "adaptive sampling",
+    "chinese": "自适应采样",
+    "category": "渲染与输出",
+    "audio": "w389.wav"
+  },
+  {
+    "english": "noise",
+    "chinese": "画面噪点",
+    "category": "渲染与输出",
+    "audio": "w390.wav"
+  },
+  {
+    "english": "firefly",
+    "chinese": "萤火虫高光噪点",
+    "category": "渲染与输出",
+    "audio": "w391.wav"
+  },
+  {
+    "english": "bucket",
+    "chinese": "渲染区块",
+    "category": "渲染与输出",
+    "audio": "w392.wav"
+  },
+  {
+    "english": "progressive",
+    "chinese": "渐进式渲染",
+    "category": "渲染与输出",
+    "audio": "w393.wav"
+  },
+  {
+    "english": "light",
+    "chinese": "灯光",
+    "category": "渲染与输出",
+    "audio": "w394.wav"
+  },
+  {
+    "english": "illumination",
+    "chinese": "光照效果",
+    "category": "渲染与输出",
+    "audio": "w395.wav"
+  },
+  {
+    "english": "GI",
+    "chinese": "全局光照",
+    "category": "渲染与输出",
+    "audio": "w396.wav"
+  },
+  {
+    "english": "indirect light",
+    "chinese": "间接光",
+    "category": "渲染与输出",
+    "audio": "w397.wav"
+  },
+  {
+    "english": "direct light",
+    "chinese": "直接光",
+    "category": "渲染与输出",
+    "audio": "w398.wav"
+  },
+  {
+    "english": "ambient light",
+    "chinese": "环境光",
+    "category": "渲染与输出",
+    "audio": "w399.wav"
+  },
+  {
+    "english": "HDRI",
+    "chinese": "高动态环境贴图",
+    "category": "渲染与输出",
+    "audio": "w400.wav"
+  },
+  {
+    "english": "sky dome",
+    "chinese": "天光穹顶",
+    "category": "渲染与输出",
+    "audio": "w401.wav"
+  },
+  {
+    "english": "emissive",
+    "chinese": "自发光材质",
+    "category": "渲染与输出",
+    "audio": "w402.wav"
+  },
+  {
+    "english": "bounce",
+    "chinese": "光线反弹",
+    "category": "渲染与输出",
+    "audio": "w403.wav"
+  },
+  {
+    "english": "light cache",
+    "chinese": "灯光缓存",
+    "category": "渲染与输出",
+    "audio": "w404.wav"
+  },
+  {
+    "english": "irradiance map",
+    "chinese": "发光图",
+    "category": "渲染与输出",
+    "audio": "w405.wav"
+  },
+  {
+    "english": "caustics",
+    "chinese": "焦散效果",
+    "category": "渲染与输出",
+    "audio": "w406.wav"
+  },
+  {
+    "english": "photon",
+    "chinese": "光子",
+    "category": "渲染与输出",
+    "audio": "w407.wav"
+  },
+  {
+    "english": "shadow",
+    "chinese": "阴影",
+    "category": "渲染与输出",
+    "audio": "w408.wav"
+  },
+  {
+    "english": "contact shadow",
+    "chinese": "接触阴影",
+    "category": "渲染与输出",
+    "audio": "w409.wav"
+  },
+  {
+    "english": "soft shadow",
+    "chinese": "软阴影",
+    "category": "渲染与输出",
+    "audio": "w410.wav"
+  },
+  {
+    "english": "hard shadow",
+    "chinese": "硬阴影",
+    "category": "渲染与输出",
+    "audio": "w411.wav"
+  },
+  {
+    "english": "shader",
+    "chinese": "着色器",
+    "category": "渲染与输出",
+    "audio": "w412.wav"
+  },
+  {
+    "english": "shading",
+    "chinese": "着色运算",
+    "category": "渲染与输出",
+    "audio": "w413.wav"
+  },
+  {
+    "english": "PBR",
+    "chinese": "基于物理渲染",
+    "category": "渲染与输出",
+    "audio": "w414.wav"
+  },
+  {
+    "english": "albedo",
+    "chinese": "固有色/反照率",
+    "category": "渲染与输出",
+    "audio": "w415.wav"
+  },
+  {
+    "english": "metallic",
+    "chinese": "金属度",
+    "category": "渲染与输出",
+    "audio": "w416.wav"
+  },
+  {
+    "english": "roughness",
+    "chinese": "粗糙度",
+    "category": "渲染与输出",
+    "audio": "w417.wav"
+  },
+  {
+    "english": "specular",
+    "chinese": "高光",
+    "category": "渲染与输出",
+    "audio": "w418.wav"
+  },
+  {
+    "english": "transmission",
+    "chinese": "透射效果",
+    "category": "渲染与输出",
+    "audio": "w419.wav"
+  },
+  {
+    "english": "opacity",
+    "chinese": "不透明度",
+    "category": "渲染与输出",
+    "audio": "w420.wav"
+  },
+  {
+    "english": "subsurface",
+    "chinese": "次表面效果",
+    "category": "渲染与输出",
+    "audio": "w421.wav"
+  },
+  {
+    "english": "SSS",
+    "chinese": "次表面散射",
+    "category": "渲染与输出",
+    "audio": "w422.wav"
+  },
+  {
+    "english": "bump map",
+    "chinese": "凹凸贴图",
+    "category": "渲染与输出",
+    "audio": "w423.wav"
+  },
+  {
+    "english": "AO",
+    "chinese": "环境闭塞",
+    "category": "渲染与输出",
+    "audio": "w424.wav"
+  },
+  {
+    "english": "texture map",
+    "chinese": "纹理贴图",
+    "category": "渲染与输出",
+    "audio": "w425.wav"
+  },
+  {
+    "english": "tile",
+    "chinese": "贴图平铺重复",
+    "category": "渲染与输出",
+    "audio": "w426.wav"
+  },
+  {
+    "english": "unwrap",
+    "chinese": "UV展开",
+    "category": "渲染与输出",
+    "audio": "w427.wav"
+  },
+  {
+    "english": "UV",
+    "chinese": "UV坐标",
+    "category": "渲染与输出",
+    "audio": "w428.wav"
+  },
+  {
+    "english": "UV layout",
+    "chinese": "UV布局",
+    "category": "渲染与输出",
+    "audio": "w429.wav"
+  },
+  {
+    "english": "ray",
+    "chinese": "光线",
+    "category": "渲染与输出",
+    "audio": "w430.wav"
+  },
+  {
+    "english": "primary ray",
+    "chinese": "主光线",
+    "category": "渲染与输出",
+    "audio": "w431.wav"
+  },
+  {
+    "english": "secondary ray",
+    "chinese": "次级光线",
+    "category": "渲染与输出",
+    "audio": "w432.wav"
+  },
+  {
+    "english": "reflection ray",
+    "chinese": "反射光线",
+    "category": "渲染与输出",
+    "audio": "w433.wav"
+  },
+  {
+    "english": "refraction ray",
+    "chinese": "折射光线",
+    "category": "渲染与输出",
+    "audio": "w434.wav"
+  },
+  {
+    "english": "reflection",
+    "chinese": "反射",
+    "category": "渲染与输出",
+    "audio": "w435.wav"
+  },
+  {
+    "english": "refraction",
+    "chinese": "折射",
+    "category": "渲染与输出",
+    "audio": "w436.wav"
+  },
+  {
+    "english": "transparent",
+    "chinese": "透明",
+    "category": "渲染与输出",
+    "audio": "w437.wav"
+  },
+  {
+    "english": "translucent",
+    "chinese": "半透明",
+    "category": "渲染与输出",
+    "audio": "w438.wav"
+  },
+  {
+    "english": "output",
+    "chinese": "输出",
+    "category": "渲染与输出",
+    "audio": "w439.wav"
+  },
+  {
+    "english": "width",
+    "chinese": "画面宽度",
+    "category": "渲染与输出",
+    "audio": "w440.wav"
+  },
+  {
+    "english": "height",
+    "chinese": "画面高度",
+    "category": "渲染与输出",
+    "audio": "w441.wav"
+  },
+  {
+    "english": "bit depth",
+    "chinese": "位深",
+    "category": "渲染与输出",
+    "audio": "w442.wav"
+  },
+  {
+    "english": "gamma",
+    "chinese": "伽马值",
+    "category": "渲染与输出",
+    "audio": "w443.wav"
+  },
+  {
+    "english": "gamma correction",
+    "chinese": "伽马校正",
+    "category": "渲染与输出",
+    "audio": "w444.wav"
+  },
+  {
+    "english": "color space",
+    "chinese": "色彩空间",
+    "category": "渲染与输出",
+    "audio": "w445.wav"
+  },
+  {
+    "english": "sRGB",
+    "chinese": "标准RGB色彩空间",
+    "category": "渲染与输出",
+    "audio": "w446.wav"
+  },
+  {
+    "english": "linear space",
+    "chinese": "线性色彩空间",
+    "category": "渲染与输出",
+    "audio": "w447.wav"
+  },
+  {
+    "english": "EXR",
+    "chinese": "高动态图像格式",
+    "category": "渲染与输出",
+    "audio": "w448.wav"
+  },
+  {
+    "english": "PNG",
+    "chinese": "无损位图格式",
+    "category": "渲染与输出",
+    "audio": "w449.wav"
+  },
+  {
+    "english": "JPG",
+    "chinese": "有损压缩图像格式",
+    "category": "渲染与输出",
+    "audio": "w450.wav"
+  },
+  {
+    "english": "TIFF",
+    "chinese": "标签图像格式",
+    "category": "渲染与输出",
+    "audio": "w451.wav"
+  },
+  {
+    "english": "V-Ray",
+    "chinese": "V-Ray渲染器",
+    "category": "渲染与输出",
+    "audio": "w452.wav"
+  },
+  {
+    "english": "Octane",
+    "chinese": "Octane渲染器",
+    "category": "渲染与输出",
+    "audio": "w453.wav"
+  },
+  {
+    "english": "Blender Cycles",
+    "chinese": "Cycles渲染器",
+    "category": "渲染与输出",
+    "audio": "w454.wav"
+  },
+  {
+    "english": "Eevee",
+    "chinese": "Eevee实时渲染器",
+    "category": "渲染与输出",
+    "audio": "w455.wav"
+  },
+  {
+    "english": "Arnold",
+    "chinese": "Arnold渲染器",
+    "category": "渲染与输出",
+    "audio": "w456.wav"
+  },
+  {
+    "english": "Redshift",
+    "chinese": "Redshift渲染器",
+    "category": "渲染与输出",
+    "audio": "w457.wav"
+  },
+  {
+    "english": "Corona",
+    "chinese": "Corona渲染器",
+    "category": "渲染与输出",
+    "audio": "w458.wav"
+  },
+  {
+    "english": "path tracer",
+    "chinese": "路径追踪器",
+    "category": "渲染与输出",
+    "audio": "w459.wav"
+  }
+]
